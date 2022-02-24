@@ -1,5 +1,11 @@
 version: 1
 
+site_url: https://koubk.tech
+display_url: https://koubk.tech
+
+backend:
+  name: git-gateway
+
 update_configs:
   - package_manager: javascript
     directory: /

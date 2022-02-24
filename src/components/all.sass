@@ -1,8 +1,8 @@
 @import "~bulma/sass/utilities/initial-variables"
 
 // Config vars
-// Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+// Kaldi logo brand color: #151D3B
+$kaldi-red: #151D3B
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
@@ -52,21 +52,34 @@ $black: #2b2523
     align-items: center
 
 .btn
+
     display: inline-block
-    padding: 12px 16px 10px
-    font-size: 18px
-    font-size: 1rem
-    line-height: 1.25
-    background-color: #fff
-    border-radius: .25rem
+    outline: none
+    cursor: pointer
+    font-weight: 500
+    border-radius: 4px
+    padding: 0 16px
+    border-radius: 4px
+    color: #fff
+    background: #5c6bc0
+    line-height: 1.15
+    font-size: 14px
+    height: 36px
+    word-spacing: 0px
+    letter-spacing: .0892857143em
     text-decoration: none
-    font-weight: 700
-    color: #CC3700
+    text-transform: uppercase
+    min-width: 64px
+    border: none
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
-    -webkit-transition: all .15s ease
-    transition: all .15s ease
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%)
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1)
+
+
+.btn:hover
+    background: #4f5cab
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%)
+                
 
 .margin-top-0
   margin-top: 0 !important
