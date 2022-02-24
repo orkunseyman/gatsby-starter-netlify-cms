@@ -5,6 +5,8 @@ display_url: https://koubk.tech
 
 backend:
   name: git-gateway
+  repo: orkunseyman/gatsby-starter-netlify-cms
+  branch: main
 
 update_configs:
   - package_manager: javascript
